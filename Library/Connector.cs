@@ -7,7 +7,7 @@ namespace Library
     {
         public static void Connect()
         {
-            var connection = new SqlConnection(@"Server=(localdb)\MSSQLLocalDB;Database=CacheTestDb;Trusted_Connection=True;");
+            var connection = new SqlConnection(@"Server=localhost;Database=master;Trusted_Connection=True;");
             connection.Open();
         }
     }
