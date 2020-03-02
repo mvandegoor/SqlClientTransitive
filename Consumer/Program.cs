@@ -3,11 +3,16 @@ using Library;
 
 namespace Consumer
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            Connector.Connect();
+	        Connect();
+        }
+
+        public static void Connect()
+        {
+	        Connector.Connect();
         }
     }
 }
